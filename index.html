@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8" />
+    <link href="src/base.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="src/index.js" async defer></script>
+  </head>
+  <body>
+    <header style="gap: 1rem">
+      <span id="profile_pic"></span>
+      <span style="display: flex; justify-content: space-between; width: 100%">
+        <div style="display: flex; align-items: start; flex-direction: column">
+          <h1>Kayongo Fwoloshi</h1>
+          <h3 style="color: rgba(82, 81, 81, 0.534); margin-top: 0;">Software Engineer</h3>
+        </div>
+        <span
+          style="
+            height: 100%;
+            gap: 1rem;
+            display: flex;
+            flex-direction: column;
+            margin-top: 2rem;
+            margin-right: 0.5rem;
+          "
+        >
+          <div class="w">
+            <span>+260979139100</span><span class="fa fa-phone fa-xl"></span>
+          </div>
+          <div class="w">
+            <span>+260950210456</span><span class="fa fa-phone fa-xl"></span>
+          </div>
+          <div class="w">
+            <span>linked.com/in/kayongofwoloshi</span
+            ><span class="fa-brands fa-linkedin-in fa-xl"></span>
+          </div>
+          <div class="w">
+            <span>github.com/kvbo</span
+            ><span class="fa-brands fa-github fa-xl"></span>
+          </div>
+        </span>
+      </span>
+    </header>
+    <main
+      style="display: flex; flex-direction: row; margin-top: 1rem; gap: 1rem"
+    >
+      <nav
+        style="
+          display: flex;
+          flex-direction: column;
+          min-width: 16rem;
+          width: 16rem;
+          flex-shrink: 0;
+        "
+      >
+        <button class="basic" onclick="action('basic')">
+            <i class="fa-solid fa-face-smile"></i>
+            Basic</button>
+        <button class="skills" onclick="action('skills')">
+            <i class="fa-solid fa-list-ul"></i>
+            Skills
+        </button>
+        <button class="history" onclick="action('history')">
+          <span class="fa-solid fa-briefcase"></span>
+          Work History
+        </button>
+        <button class="edu" onclick="action('edu')">
+          <i class="fa-solid fa-graduation-cap"></i>
+          Education
+        </button>
+        <button class="hobbies" onclick="action('hobbies')">
+          <i class="fa-solid fa-futbol"></i>
+          Hobbies
+        </button>
+      </nav>
+      <section style="flex-grow: 1" id="main"></section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
