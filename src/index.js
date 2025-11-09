@@ -314,7 +314,7 @@ var action = (event) => {
           .map(
             (job) => `
           <div class="work-item">
-            <h3>${job.position}</h3>
+            <h3>${job.position}</h3>https://github.com/kvbo/portfolio.git
             <h4>${job.company}</h4>
             <div class="date-location">
               ${job.start_date} - ${job.end_date} | ${job.location}
