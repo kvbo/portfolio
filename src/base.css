@@ -48,7 +48,7 @@ p {
   height: 16rem;
   width: 16rem;
   aspect-ratio: 1 / 1;
-  background-image: url("/public/avatar.jpg");
+  background-image: url("public/avatar.jpg");
   background-position: 50%;
   background-size: 100%;
   overflow: clip;
