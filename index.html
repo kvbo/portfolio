@@ -19,10 +19,34 @@
       referrerpolicy="no-referrer"
     />
     <script src="src/index.js" async defer></script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WWMB5C86");
+    </script>
+    <!-- End Google Tag Manager -->
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WWMB5C86"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header style="gap: 1rem">
-      <span id="profile_pic"></span>
+      <span id="profile_pic"> </span>
       <span style="display: flex; justify-content: space-between; width: 100%">
         <div style="display: flex; align-items: start; flex-direction: column">
           <h1>Kayongo Fwoloshi</h1>
@@ -52,7 +76,9 @@
             ><span class="fa-brands fa-linkedin-in fa-xl"></span>
           </div>
           <div class="w">
-            <a href="https://github.com/kvbo" target="_blank">github.com/kvbo</a>
+            <a href="https://github.com/kvbo" target="_blank"
+              >github.com/kvbo</a
+            >
             <span class="fa-brands fa-github fa-xl"></span>
           </div>
         </span>
